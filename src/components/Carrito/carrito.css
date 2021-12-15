@@ -1,0 +1,124 @@
+.carritoContainer{
+    min-height:  420px;
+}
+
+.section-carrito{
+    border: 1px solid sienna;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.header-carrito{
+    background: sienna;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.datos-user{
+    display: flex;
+    align-items: center;
+}
+
+.header-carrito .datos-user img{
+    border-radius: 30px;
+    border: 2px solid #262a49;
+}
+
+.header-carrito .datos-user h6{
+    margin-bottom: 0;
+    margin-left: 2px;
+    color: silver;
+}
+
+.header-carrito h3{
+    padding: 8px 0px;
+    text-align: center;
+    color: cornsilk;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.main-carrito{
+    background: #b49c8b;
+}
+
+.main-carrito table{
+    padding: 0px;
+    margin: 0px;
+}
+
+table .total h3{
+    color: rgb(19, 8, 22);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+table .total button{
+   font-weight: 700;
+   color: rgb(19, 8, 22);
+}
+
+/*TARJETA DE AGREGARDO*/
+.nota-container{
+    position: fixed;
+    top: 90%;
+    width: 100%;
+}
+
+.nota-container .card{
+    margin: 0 10px;
+    width: 300px;
+    display: flex;
+    align-items: space-between;
+    float: right;
+}
+
+.nota-container .card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nota-container .card-body h5, p{
+    margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .section-carrito{
+        width: 50%;
+    }
+
+    .header-carrito .datos-user h6{
+        font-size: 16px;
+    }
+
+    .header-carrito h3{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .section-carrito{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .section-carrito{
+        width: 90%;
+    }
+
+    .header-carrito .datos-user h6{
+        font-size: 15px;
+    }
+
+    .header-carrito h3{
+        font-size: 14px;
+    }
+}

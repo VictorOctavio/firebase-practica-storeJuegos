@@ -1,0 +1,33 @@
+*{
+    scroll-behavior: smooth;
+}
+.acercade-container{
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 160px;
+    background-color: #02031a;
+    padding: 30px 0;
+}
+
+.galerias-acercade img{
+    width: 100%;
+}
+
+.info-acercade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-acercade h3{
+    color: sienna;
+    font-weight: 700;
+}
+
+.info-acercade p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}

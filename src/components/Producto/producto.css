@@ -1,0 +1,204 @@
+.producto{
+    width: 65%;
+    margin: 0px auto;
+}
+
+.producto .container-juego{
+    margin: 200px 0px;
+}
+
+.producto .container-juego .img-juego{
+    border: 1.5px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background: rgb(246, 245, 230);
+}
+
+.producto .container-juego .img-juego img{
+    opacity: 0.9;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 3px;
+}
+
+.producto .container-juego .img-juego img:hover{
+    transition: .3s;
+    opacity: 1;
+}
+
+/*DESCRIPCION JUEGOS*/
+
+.descripcion-juego{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.descripcion-juego .header h3{
+    font-weight: 300;
+    color: rgb(78, 78, 78);
+}
+
+.descripcion-juego .header p{
+    margin-bottom: 0px;
+    color: rgb(44, 104, 153);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.descripcion-juego .body{
+    display: flex;
+    flex-direction: column;
+}
+
+.descripcion-juego .body .pagos h5{
+    font-weight: 300;
+}
+
+.descripcion-juego .body .pagos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.descripcion-juego .body .pagos h6{
+    margin-bottom: 0px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.descripcion-juego .body span{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.descripcion-juego .footer .redirec{
+    text-decoration: underline;
+}
+
+.descripcion-juego .footer .redirec:hover{
+    color: rgb(149, 101, 11);
+}
+
+
+
+/*JUEGOS RECOMENDADOS*/
+
+.container-recomendado{
+    margin-top: 250px;
+}
+
+.container-recomendado h3{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(124, 124, 124);
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(216, 215, 215);
+}
+
+
+.container-recomendado .juego-recomendados{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.container-recomendado .card{
+    border: 1px solid #ccc;
+    margin: 0 3px;
+}
+
+.container-recomendado .card img{
+    width: 200;
+    height: 250;
+    margin-top: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container-recomendado .card  .header{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-recomendado .card  .header h5{
+    margin-bottom: 0px;
+}
+
+.container-recomendado .card  .header .precio-recomendado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-recomendado .card  .header .precio-recomendado span{
+    color: sienna;
+}
+
+.container-recomendado .card  .header .precio-recomendado p{
+    font-weight: 700;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .producto{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .producto{
+        width: 90%;
+    }
+
+    .descripcion-juego{
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .descripcion-juego .header h3{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .descripcion-juego .header p{
+        font-size: 14px;
+    }
+
+    .descripcion-juego .body{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .descripcion-juego .body .pagos{
+        display: none;
+    }
+
+    .descripcion-juego .footer{
+        margin-top: 50px;
+    }
+
+    .container-recomendado .card  .header h5{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .producto{
+        width: 100%;
+    }
+
+    .container-recomendado .card  .header h5{
+        font-size: 16px;
+    }
+
+    .container-recomendado h3{
+        font-size: 25px;
+    }
+}

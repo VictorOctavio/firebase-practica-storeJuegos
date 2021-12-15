@@ -1,0 +1,78 @@
+.text-destacado{
+    margin-top: 250px;
+    text-align: center;
+    border-bottom: 1px solid #ccc ;
+}
+
+.text-destacado h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgb(83, 83, 83);
+}
+
+.fila-juegos{
+    margin-top: 50px;
+}
+
+.fila-juegos .carta .card{
+    width: 100%;
+    margin: 20px 0px;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.fila-juegos .carta .card img{
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.fila-juegos .carta .card:hover{
+    transition: 0.3s;
+	-webkit-box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+}
+
+.fila-juegos .carta .card .textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-juegos .carta .card .textos h5{
+    margin-bottom: 0px;
+    margin-top: -5px;
+    font-weight: 400;
+}
+
+.fila-juegos .carta .card .textos .precio-destacado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila-juegos .carta .card .textos .precio-destacado span{
+    color: #ce944a;
+    font-size: 13px;
+}
+
+.fila-juegos .carta .card .textos .precio-destacado p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+    margin-top: -3px;
+}
+
+.fila-juegos .carta .card .botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fila-juegos .carta .card .botones a{
+    width: 77%;
+    background-color: #92400a;
+    color: #fff;
+}
+
+.btn-productos button{
+    padding: 10px 30px;
+}

@@ -1,0 +1,73 @@
+.portada{
+    height: 100vh;
+    background: url('https://cdn.akamai.steamstatic.com/steam/apps/1506830/ss_2cdf78a2091db6adb7ec405f4c5438fd621266a9.1920x1080.jpg?t=1639481807');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    object-fit: cover;
+}
+
+.portada .text-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portada .text-container h1{
+    font-weight: 700;
+    color: rgb(185, 94, 15);
+    font-size: 60px;
+}
+
+.portada .text-container h6{
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #d6bda6;
+}
+
+.portada .text-container h5 a{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .portada .text-container h1{
+        font-size: 30px;
+    }
+
+    .portada .text-container h6{
+        font-size: 19px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .portada{
+        background: url('https://media.contentapi.ea.com/content/dam/ea/easports/fifa/champions-league/FIFA19-Hero-UEFA-Neymar-xs.jpg');
+        background-position: center;
+    }
+
+    .portada .text-container h1{
+        text-align: center;
+    }
+
+    .portada .text-container h6{
+        text-align: center;
+        margin: 0px;
+    }
+
+    .portada .text-container h5{
+        text-align: center;
+    }
+
+    .portada .text-container h5 a{
+        margin: 0px;
+    }
+}

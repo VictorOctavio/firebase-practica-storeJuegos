@@ -1,0 +1,122 @@
+.loginContainer{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+    border: 1px solid rgb(219, 219, 219);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer .sesionPhoto{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.loginContainer .sesionPhoto img{
+    width: 80%;
+}
+
+.loginContainer .sesion{
+    width: 40%;
+}
+
+.loginContainer .sesion .title h5{
+    text-align:  center;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.loginContainer .sesion .boton-sesion .icon{
+    font-size: 14px;
+   margin: 0px 5px;
+}
+
+
+/*pie-form*/
+.pie-form{
+    margin: 130px 0;
+    padding: 10px 0px;
+    background: rgb(3, 0, 0);
+}
+
+.pie-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-info{
+    display: flex;
+    justify-content: center;
+} 
+
+.img-info img{
+    width: 180px;
+    margin: 0px 5px;
+}
+
+.text-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-info h3{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(46, 2, 2);
+}
+
+.text-info p{
+    text-align: center;
+    margin-bottom: 0px;
+    color: floralwhite;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .loginContainer{
+        height: auto;
+        width: 70%;
+    }
+
+    .loginContainer .sesion .title h5{
+        font-size: 20px;
+    }
+    
+    .loginContainer .sesion .boton-sesion button{
+        font-size: 14px;
+    }
+
+    .img-info img{
+        width: 140px;
+    }
+    .img-info .messi-img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .loginContainer{
+        width: 90%;
+    }
+
+    .img-info .tevez-img{
+        display: none;
+    }
+
+    .loginContainer .sesion .title h5{
+        font-size: 16px;
+    }
+
+    .loginContainer .sesion .boton-sesion button{
+        font-size: 12px;
+    }
+
+    .loginContainer .sesion .boton-sesion .icon{
+        display: none;
+    }
+}

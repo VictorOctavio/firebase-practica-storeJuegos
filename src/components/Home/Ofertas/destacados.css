@@ -1,0 +1,102 @@
+.divcontainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.destacado-title{
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.destacado-title h2{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(86, 92, 98);
+}
+
+.destacado-container{
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.destacado-container .juegos-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.juegos-container .card{
+    margin: 10px 5px;
+    background-color:#d6d6d6;
+    opacity: 0.9;
+}
+
+.juegos-container .card img{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.juegos-container .card:hover{
+    transition: 0.3s;
+	-webkit-box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 15px -7px rgba(0,0,0,0.75);
+    opacity: 1;
+}
+
+.juegos-container .card-body .primera-linea{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+.juegos-container .card-body .primera-linea h5{
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.juegos-container .card-body .primera-linea .precio-off{
+    display: flex;
+    justify-content: space-between;
+}
+
+.juegos-container .card-body .primera-linea .precio-off p{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(39, 39, 39);
+    margin-top: -3px;
+}
+
+.juegos-container .card-body .primera-linea .precio-off span{
+    font-size: 13px;
+    font-weight: 700;
+    color: #799351;
+    margin-bottom: 0px;
+}
+
+.juegos-container .card .card-body .segunda-linea a{
+    width: 100%;
+    background-color: #92400a;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+    .juegos-container .card-body .primera-linea h5{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    .juegos-container .card-body .primera-linea h5{
+        font-size: 20px;
+    }
+}

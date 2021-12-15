@@ -1,0 +1,219 @@
+footer{
+    margin-top: 100px;
+    height: auto;
+    background: #01040a;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.informacion .icon{
+    color: rgb(170, 170, 170);
+    font-size: 20px;
+    margin: 0 3px;
+}
+
+.informacion h2{
+    color: rgb(139, 139, 139);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.informacion .compra, .entrega, .pagos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pagos .formas-pago .mastercard{
+    color: rgb(204, 151, 35);
+    font-size: 30px;
+}
+
+.pagos .formas-pago .visa{
+    color: rgb(80, 98, 146);
+    font-size: 30px;
+}
+
+.pagos .formas-pago .creditcard{
+    color: rgb(107, 5, 10);
+    font-size: 30px;
+}
+
+
+.redes-sociales{
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.redes-sociales .redes{
+    width: 35%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.redes-sociales .redes h5{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.redes-sociales .redes .enlaces-redes{
+    margin-left: 20px;
+}
+
+.redes-sociales .redes a {
+    color: rgb(145, 157, 172);
+    font-size: 30px;
+    opacity: .5;
+}
+
+.redes-sociales .redes a:hover{
+    transition: .3s;
+    opacity: 1;
+}
+
+.redes-sociales .formulario form{ 
+   width: 100%;
+}
+
+.redes-sociales .formulario form h3{ 
+    color: snow;
+    font-weight: 700;
+}
+
+.redes-sociales .formulario form button{ 
+   padding: 5px 120px;
+}
+
+
+@media only screen and (max-width: 1330px) {
+    .informacion{
+        width: 70%;
+    }
+
+    .redes-sociales{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .informacion{
+        width: 95%;
+    }
+
+    .informacion .compra, .entrega, .pagos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacion .compra, .entrega, .pagos p{
+        font-size: 15px;
+    }
+
+    .informacion h2{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .redes-sociales{
+        width: 95%;
+    }
+
+    .redes-sociales .formulario form h3{ 
+        font-size: 17px;
+    }
+
+     .redes-sociales .formulario form p{ 
+        font-size: 14px;
+    }
+
+    .redes-sociales .formulario form button{ 
+        padding: 5px 90px;
+    } 
+  }
+
+    @media only screen and (max-width: 800px) {
+
+        .redes-sociales .formulario form button{ 
+            padding: 5px 60px;
+        }
+
+        .redes-sociales .redes h5{
+            font-size: 18px;
+        }
+    
+        .redes-sociales .redes a {
+            font-size: 25px;
+        }    
+    }
+
+ 
+@media only screen and (max-width: 700px) {
+    .informacion .compra, .entrega, .pagos h2{
+        font-size: 13px;
+    }
+    .informacion .compra, .entrega, .pagos p{
+        font-size: 12px;
+    }
+    .pagos .formas-pago .iconcard{
+        font-size: 18px;
+    }
+
+    .informacion .compra .icon, .entrega .icon, .pagos .icon{
+        display: none;
+    } 
+
+    .redes-sociales .formulario form button{ 
+        padding: 5px 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .informacion{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 2px;
+    }
+
+    .informacion .compra, .entrega, .pagos{
+        margin-bottom: 10px;
+    }
+
+    .redes-sociales .formulario form p{ 
+        display: none;
+    }
+
+    .redes-sociales .formulario form button{ 
+        padding: 5px 20px;
+    }
+
+    .redes-sociales .redes h5{
+        display: none;
+    }
+
+    .redes-sociales .redes .enlaces-redes{
+        margin-left: 8px;
+    }
+    .redes-sociales .redes a {
+        font-size: 25px;
+        margin: 0px;
+    }
+}   

@@ -1,0 +1,72 @@
+.form-container{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.form-container h3{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.card .card-body .primera-linea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-body .primera-linea h5{
+    font-weight: 400;
+}
+
+.card .card-body .segunda-linea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .card-body .segunda-linea a{
+    width: 80%;
+}
+.card .card-body .segunda-linea button{
+    width: 18%;
+}
+
+
+/*LIST TAREAS*/
+.list-productos{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.list-productos h3{
+    text-align: center;
+    font-weight: 400;
+}
+
+.list-productos table{
+    margin-top: 50px;
+}
+
+/*caracteristica-producto*/
+
+.caracteristica-producto .opciones{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
